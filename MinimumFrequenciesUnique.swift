@@ -17,7 +17,7 @@ print(sol.minDeletions(s))
 func tests() {
     let s = Solution()
     assert(s.minDeletions("aab") == 0 )
-    assert(s.minDeletions("aaabbbcc") == 2 )
+    assert(s.minDeletions("aaabbbcc") == 0 )
     assert(s.minDeletions("ceabaacb") == 2 )
 }
 
